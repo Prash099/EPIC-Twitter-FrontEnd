@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/EPIC-Twitter-Frontend/static/js/main.e2146b55.js",
+    "main.js": "/EPIC-Twitter-Frontend/static/js/main.b8dc5d07.js",
     "static/js/787.28cb0dcd.chunk.js": "/EPIC-Twitter-Frontend/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/EPIC-Twitter-Frontend/index.html",
-    "main.e2146b55.js.map": "/EPIC-Twitter-Frontend/static/js/main.e2146b55.js.map",
+    "main.b8dc5d07.js.map": "/EPIC-Twitter-Frontend/static/js/main.b8dc5d07.js.map",
     "787.28cb0dcd.chunk.js.map": "/EPIC-Twitter-Frontend/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e2146b55.js"
+    "static/js/main.b8dc5d07.js"
   ]
 }
