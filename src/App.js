@@ -41,6 +41,7 @@ function App() {
         const tweets = await contract.updateTweet(i,text)
         console.log(tweets)
       } catch (err) {
+        alert("You are not allowed to Edit Other Tweets")
         console.log('Error: ', err)
       }
     }
@@ -57,6 +58,7 @@ function App() {
         const tweets = await contract.deleteTweet(i)
         console.log(tweets)      
       } catch (err) {
+        alert("You are not allowed to Delete Other Tweets")
         console.log('Error: ', err)
       }
     }
@@ -127,10 +129,12 @@ function App() {
             <p>
               <ul>
                 {tweet &&  console.log(tweet)}
-                {tweet && tweet.map((d,i) => (<li style={{paddingTop: "10px", background: "border-gray-400 bg-gray-100", textShadow: "0px 1px 1px"}} 
-                className="tweet" key={i}>{d[0]} 
-                <button style={{margin: "auto", position: "relative", left: "10px"}} onClick={()=>editTweets(i,d[0])}>Edit</button>
-                <button style={{margin: "auto", position: "relative", left: "20px"}} onClick={()=>deleteTweets(i)}>Delete</button></li>))}
+                {tweet && tweet.map((d,i) => (<li style={{color: "Black", paddingTop: "10px", textShadow: "0px 1px 1px"}} 
+                className="tweet" key={i}>{d[0]}
+                <p></p>
+                <p>Author :  {d[1]}</p>
+                <button style={{background:"yellow", margin: "auto", position: "relative", left: "10px"}} onClick={()=>editTweets(i,d[0])}>Edit</button>
+                <button style={{background:"orange", margin: "auto", position: "relative", left: "20px"}} onClick={()=>deleteTweets(i)}>Delete</button></li>))}
               </ul>
             </p>
           </div>
