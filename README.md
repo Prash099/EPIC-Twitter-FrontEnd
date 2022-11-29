@@ -7,20 +7,35 @@ Manual
 
 EPIC Twitter
     Access the following link to make tweets using dApp EPIC-Twitter
+
     Click on “Get Tweets” to see all the tweets posted
+
 Add Tweets
+
     In the tweet box, type some tweets and click on “Add Tweets” to post your tweet.
+
     The transaction is authorized using MetaMask with Goerli TestNet 
+
     After transaction is processed, you will see tweet get added in the feed with your MetaMask ID.
+
 Edit Tweets
+
     Click on “Edit” below your tweet you want to edit.
+
     Note: It is not possible to edit tweets posted by other authors.
+
     The transaction is authorized using MetaMask with Goerli TestNet 
+
     After transaction is processed, you will see tweet get updated in the feed.
+
 Delete Tweets
+
     Click on “Delete” below your tweet you want to delete.
+
     Note: It is not possible to delete tweets posted by other authors.
+
     The transaction is authorized using MetaMask with Goerli TestNet 
+
     After transaction is processed, you will see tweet getting deleted from the feed.
 
 In the project directory, you can run:
