@@ -7,6 +7,8 @@ Manual
 
 EPIC Twitter
     Access the following link to make tweets using dApp EPIC-Twitter
+    
+    (https://prash099.github.io/EPIC-Twitter-Frontend/)
 
     Click on “Get Tweets” to see all the tweets posted
 
